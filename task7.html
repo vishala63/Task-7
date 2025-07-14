@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>create form</title>
+  <style>
+    body {
+      font-family: cursive;
+      background-color: #89cedf;
+      padding: 50px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      background-color: #ffffff;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>User Information Form</h2>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name"> 
+
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age">
+
+    <label for="designation">Designation</label>
+    <input type="text" id="designation" name="designation">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" name="pwd">
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob">
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
